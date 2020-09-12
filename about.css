@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300;0,400;1,300&family=Sniglet&display=swap');
+.border-width {
+  font-size : 30px;
+}
+body{
+  background : whitesmoke;
+}
+
+:root{
+    --snigle-font:"sniglet",cursive;
+    --Rubik : "Rubik",cursive;
+    --patusa : "Patusa One",cursive;
+    --Lobster : "Lobster",cursive;
+    --light-black : #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,#dd2476,#ff512f);
+    --light-gray : rgba(255,255,255,0.6);
+}
+.wrapper{
+    margin-top: 10%;
+}
+.wrapper h1{
+    font-family: 'Caveat', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .team_member{
+    background: white;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.team .team_member h3{
+    color: brown;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.team .team_member p.role{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+
+}
+.team .team_member .teamimg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+}
+.team .team_member .teamimg img{
+    width: 120px;
+    height: 120px;
+    padding: 12px;
+}
